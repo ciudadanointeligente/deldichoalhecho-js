@@ -1,0 +1,28 @@
+{
+  "name": "deldichoalhecho",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install; grunt dist",
+    "test": "./node_modules/grunt-cli/bin/grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ciudadanointeligente/deldichoalhecho-js"
+  },
+  "author": "Fundacion Ciudadano Inteligente",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-requirejs": "~0.4.4",
+    "requirejs": "~2.1.20",
+    "grunt-lib-phantomjs": "~0.7.1",
+    "grunt-cli": "~0.1.13",
+    "grunt-mocha": "~0.4.13",
+    "bower": "~1.5.3"
+  },
+  "dependencies": {
+    "lodash": "~3.10.1"
+  }
+}

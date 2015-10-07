@@ -1,0 +1,24 @@
+{
+  "name": "deldichoalhecho-js",
+  "version": "0.0.0",
+  "hompage": "https://github.com/ciudadanointeligente/deldichoalhecho-js",
+  "authors": [],
+  "description": "",
+  "license": "BSD",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "example"
+  ],
+  "devDependencies": {
+    "chai": "~3.3.0",
+    "mocha": "~2.3.3",
+    "sinonjs": "~1.17.1"
+  },
+  "dependencies": {
+    "requirejs": "~2.1.20"
+  }
+}
